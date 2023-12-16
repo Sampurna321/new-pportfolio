@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.intro {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mypic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.myhobbies {
+  margin-top: 50px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card {
+  margin-top: 0px;
+  flex-direction: row;
+}
+.cardpic {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.textbox {
+  margin-top: 10px;
+  padding: 10px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: rgb(232, 232, 232);
+  margin-left: 40px;
+  float: right;
+}
+.contactme {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contactbtn {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(106, 255, 0);
+  border: none;
+  border-radius: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 255, 146);
+  height: 100px;
+}
